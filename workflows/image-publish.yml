@@ -1,6 +1,7 @@
 name: Publish to GitHub Container Registry (GHCR.io)
  
-on: [push]
+on:
+  workflow_call:
 
 env:
   REGISTRY: ghcr.io
